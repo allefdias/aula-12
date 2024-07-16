@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Catalogo de livros Infinity</h1>
+        <div id="catalogo"> </div>
+
+        <div id="addbook-form">
+            <h2>Adicionar novo livro</h2>
+            <input type="text" id="titulo" placeholder="Título">
+            <input type="text" id="autor" placeholder="autor">
+            <input type="text" id="genero" placeholder="Genero">
+            <input type="text" id="ano" placeholder="Ano">
+            <button onclick="addBook()">Cadastrar</button>
+        </div>
+
+        <div id="search-form">
+            <input type="text" id="termo" placeholder="Pesquisar">
+            <button onclick="searchBook()">Pesquisar</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

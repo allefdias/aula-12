@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(179, 230, 243);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+
+}
+
+input, button{
+    margin: 5px;
+    padding: 8px;
+    width: calc(100% - 22px);
+
+}
+
+button{
+    cursor: pointer;
+    width: 100px;
+    margin-left: 40%;
+    border-radius: 20px;
+    background-color: cyan
+     }
+button:hover{
+    background-color: #00ff73;
+}
+#catalogo{
+    margin-bottom: 20px;
+}
+
+.book{
+    border: 1px solid #acacac ;
+    padding: 10px;
+    margin-bottom: 10px;   
+}
+
+#addbook-form, #search-form{
+    margin-bottom: 10px;
+}
